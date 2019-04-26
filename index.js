@@ -4,6 +4,7 @@
     - 处理错误以及损坏或者不存在的URL
     - 处理不同类型的请求
 */
+
 var connect = require("connect");
 // 创建服务器
 var server = connect.createServer();
